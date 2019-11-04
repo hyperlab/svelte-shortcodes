@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "svelte-shortcodes",
   "keywords": [
-    "svelte"
+    "svelte",
+    "sapper",
+    "shortcodes",
+    "shortcode"
   ],
-  "repository": "TODO",
+  "repository": "https://github.com/hyperlab/svelte-shortcodes",
   "license": "MIT",
   "files": [
     "src",
