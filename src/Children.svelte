@@ -5,7 +5,7 @@
   const TEXT_NODE = 3;
 </script>
 
-{#each nodes as node}
+{#each nodes as node (node)}
   {#if node.nodeType == TEXT_NODE}
     {node.textContent}
   {:else if node.nodeType == ELEMENT_NODE}
