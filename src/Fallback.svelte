@@ -18,10 +18,34 @@
   <h4 {...node.attrs}>
     <slot />
   </h4>
+{:else if node.tagName == 'h5'}
+  <h5 {...node.attrs}>
+    <slot />
+  </h5>
+{:else if node.tagName == 'h6'}
+  <h6 {...node.attrs}>
+    <slot />
+  </h6>
 {:else if node.tagName == 'div'}
   <div {...node.attrs}>
     <slot />
   </div>
+{:else if node.tagName == 'header'}
+  <header {...node.attrs}>
+    <slot />
+  </header>
+{:else if node.tagName == 'footer'}
+  <footer {...node.attrs}>
+    <slot />
+  </footer>
+{:else if node.tagName == 'section'}
+  <section {...node.attrs}>
+    <slot />
+  </section>
+{:else if node.tagName == 'article'}
+  <article {...node.attrs}>
+    <slot />
+  </article>
 {:else if node.tagName == 'span'}
   <span {...node.attrs}>
     <slot />
